@@ -270,7 +270,7 @@ footer{
   cursor: pointer;
 }
 .footer-service button:hover{
-  transform: scale(1.5);
+  transform: scale(1.3);
 }
 .number{
   display: flex;
@@ -287,13 +287,21 @@ footer{
   margin-top: 20px;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 .social-media{
   display: flex;
   width: 30%;
   gap: 20px;
+}
+
+.social-media a {
   color: #202142;
   font-size: 23px;
+}
+
+.social-media a :hover {
+  color: #ccc;
 }
 .quick-links{
   width: 50%;
@@ -303,12 +311,11 @@ footer{
 .quick-logo{
   width: 20%;
   display: flex;
-  /* gap: 3px; */
 }
 .logo-text p{
   font-size: 10px;
-  line-height: 10px;
-  margin-top: 10px;
+  line-height: 7px;
+  margin-top: 13px;
 }
 .quick-logo img{
   width: 70px;

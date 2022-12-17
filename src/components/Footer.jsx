@@ -45,10 +45,10 @@ function Footer() {
       </div>
       <div className="bottom-footer">
         <div className="social-media">
-            <FaFacebook />
-            <FaTwitter />
-            <FaYoutube />
-            <FaInstagram />
+            <a href="./about"><FaFacebook /></a>
+            <a href="./about"><FaTwitter /></a>
+            <a href="./about"> <FaYoutube /></a>
+            <a href="./about"> <FaInstagram /></a>  
         </div>
         <div className="quick-links">
             <a href="./about">Current</a>
@@ -58,7 +58,6 @@ function Footer() {
             <a href="./about">Accessibility</a>
         </div>
         <div className="quick-logo">
-            {/* <img src={logo} alt="" /> */}
             <img src={logo} alt="" />
             <div className="logo-text">
                 <p>QuickBasic</p>
