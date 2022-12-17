@@ -200,9 +200,14 @@ input:focus {
 
 /* FIX: Remove position: absolute to keep about icon at the bottom of the
  * document */
-.about-link a {
-  color: #ccc;
+.about-link a, .info-link a, .quick-links a {
+  color: #fff;
   cursor: pointer;
+}
+
+.info-link a:hover, .quick-links a:hover{
+  color: #202142;
+  font-weight: bold;
 }
 
 .about-link a:hover {
@@ -233,4 +238,80 @@ input:focus {
   .input-group input {
     width: 80%;
   }
+}
+
+footer{
+  line-height: 40px;
+  background-color: #ff6a95;
+  color: #fff;
+  padding: 20px 40px;
+}
+.top-footer{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #202142;
+  padding-bottom: 10px;
+}
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  
+}
+.footer-details{
+  width: 30%;
+}
+.footer-service{
+  width: 20%;
+}
+.footer-service button{
+  font-weight: bold;
+  cursor: pointer;
+}
+.footer-service button:hover{
+  transform: scale(1.5);
+}
+.number{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.btn-contact{
+  padding: 10px;
+  background-color: #202142;
+  color: white;
+  border: none;
+}
+.bottom-footer{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.social-media{
+  display: flex;
+  width: 30%;
+  gap: 20px;
+  color: #202142;
+  font-size: 23px;
+}
+.quick-links{
+  width: 50%;
+  display: flex;
+  gap: 20px;
+}
+.quick-logo{
+  width: 20%;
+  display: flex;
+  /* gap: 3px; */
+}
+.logo-text p{
+  font-size: 10px;
+  line-height: 10px;
+  margin-top: 10px;
+}
+.quick-logo img{
+  width: 70px;
+  height: 70px;
+  color:#202142;
 }
