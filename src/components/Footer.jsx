@@ -15,7 +15,7 @@ function Footer() {
         <div className="footer-details">
             <h2>Team Qbasic University</h2>
             <p>Lagos Nigeria</p>
-            <p>Lorem ipsum dolor</p>
+            <p>Ranked 2nd Best Internationally</p>
         </div>
         <div className="footer-contact">
             <div className="number"><FaPhoneAlt />
